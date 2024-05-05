@@ -1,0 +1,207 @@
+
+.job-card {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    -webkit-box-shadow: 0px 2px 15px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 15px -9px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 15px -9px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.job-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.heading h3{
+    color:#7b7b7b;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.heading .txt{
+    font-size: 30px;
+    font-weight:300;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top:-20px;
+}
+
+.heading .txt:first-letter{
+    text-transform: uppercase;
+}
+
+.heading .loc{
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top:-30px;
+
+}
+.heading .loc::first-letter{
+    text-transform: capitalize;
+}
+
+.salary{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#7b7b7b;
+}
+
+.about .head{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.about h4{
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -30px;
+}
+
+.descdet{
+    width:100%;
+    background-color: white;
+    color:blue;
+    border:none;
+    font-size:20px;
+    padding: 15px 32px;
+    box-shadow: -1px -25px 20px -20px rgba(123, 123, 123, 0.17),
+    0px -27px 21px -19px rgba(143, 141, 141, 0.45);
+    margin-top: -20px;
+    opacity: 0.7;
+}
+
+.about .desc{
+    font-size: 22px;
+    margin-top: -20px;
+}
+
+.salary{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#7b7b7b;
+}
+
+.experience h3{
+    font-family: 'Courier New', Courier, monospace;
+    color:#7b7b7b;
+    font-size: 20px;
+}
+
+.experience p{
+    font-size:20px;
+    margin-top:-20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    margin-top:20px;
+    
+}
+
+.easy{
+    background-color: rgb(32, 244, 184);
+    border:2px solid rgb(32, 244, 184);
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+.buttons .refer{
+    background-color: rgb(91, 74, 224);
+    border:2px solid  rgb(91, 74, 224);
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 10px;
+    color:white;
+}
+
+.ava{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ava span{
+    margin-left:10px;
+}
+.blur-avatar {
+    filter: blur(2px); 
+    margin-right: 5px; 
+}
+
+.header{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom:50px;
+}
+.header .nav{
+    width:100%;
+    font-size:18px;
+    margin-right:10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding:10px;
+    border-radius: 8px;
+    border:2px solid gray;
+    color:#7b7b7b;
+}
+
+
+@media (max-width: 480px) {
+    .job-card {
+        margin: 5px;
+        padding: 15px;
+    }
+
+    .job-grid{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .heading .txt {
+        font-size: 30px;
+        margin-top:-10px; /* even smaller font size for very small screens */
+    }
+
+    .heading .loc{
+        margin-top:-30px;
+    
+    }
+    .about .head {
+        font-size: 25px; /* reduce size for readability */
+    }
+
+    .about h4{
+        font-size: 20px;
+        margin-top:-20px;
+    }
+
+    .about .desc{
+        font-size: 18px;
+        margin-top:-10px;
+    }
+    .descdet{
+        font-size:18px;
+    }
+    .buttons {
+        flex-direction: column; /* adjust button layout */
+    }
+
+    .header .nav{
+        font-size:15px;
+    }
+
+    
+}
