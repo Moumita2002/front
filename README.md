@@ -25,6 +25,13 @@ Mobile view
 ![2024-05-05 (3)](https://github.com/Moumita2002/front/assets/102172188/97c1c8e6-3060-4a01-b254-65b529767e69)
 
 
+
+# How to run the application:
+- Clone the repo
+- Move to code editor move to the folder, in the console write the command "npm install" or "npm i"
+- Run the application by typing "npm start"
+
+  
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
