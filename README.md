@@ -12,10 +12,6 @@ The React-app has been hosted on Netlify, the link is provided here:
 https://drive.google.com/file/d/1JheeUCbidUKTNRsO0jA_G92EOifT_4BI/view?usp=sharing
 
 
-# The UI that I was asked to implement:
-
-![2024-05-05 (1)](https://github.com/Moumita2002/front/assets/102172188/bd065568-e242-4026-bd67-43c635d8a21c)
-
 # The Final result: (Note:The images were not provided in API)
 
 Desktop view
